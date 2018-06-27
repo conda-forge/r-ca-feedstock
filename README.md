@@ -1,7 +1,7 @@
 About r-ca
 ==========
 
-Home: https://CRAN.R-project.org/package=vcdExtra
+Home: http://www.carme-n.org/
 
 Package license: GPL-2 and GPL-3
 
