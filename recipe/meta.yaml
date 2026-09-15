@@ -1,18 +1,18 @@
-{% set version = "0.71.1" %}
+{% set version = "0.72" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
   name: r-ca
-  version: {{ version|replace("-", "_") }}
+  version: "{{ version|replace("-", "_") }}"
 
 source:
   url:
     - {{ cran_mirror }}/src/contrib/ca_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/ca/ca_{{ version }}.tar.gz
-  sha256: 040c2fc94c356075f116cc7cd880530b3c9e02206c0035182c03a525ee99b424
+  sha256: 9c3b6abf177d557df8c18316194f95a1e5456259a6d95a460ea052125cd3b153
 
 build:
-  number: 5
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
